@@ -1,1 +1,6 @@
-
+jobs:
+  build:
+    docker:
+      - image: cimg/aws:2023.05
+    steps:
+      - run: netstat
