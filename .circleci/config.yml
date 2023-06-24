@@ -1,7 +1,0 @@
-jobs:
-  build:
-    docker:
-      - image: cimg/aws:2023.05
-    steps:
-      - checkout
-      - run: chmod u+x *; ./main
